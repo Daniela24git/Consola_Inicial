@@ -3,42 +3,35 @@ using System.Linq;
 
 namespace Tarea2_Arbol_Binario
 {
-    class ManejadorArbol
+    class ControladorArbol
     {
         private int nivelActual;
 
-        public string ImprimirArbol(Nodo nodo)
+        public string Arbol(Nodo nodo)
         {
-            //Analiza el comportamiento de una hoja
+            
             if (!nodo.Hijos.Any())
                 return nodo.Numero;
-            //Analizo cuando no soy hoja
-            return $"({ ImprimirArbol(nodo.Hijos[0])} {nodo.Numero}{ ImprimirArbol(nodo.Hijos[1])})";
+            
+            return $"({ Arbol(nodo.Hijos[0])} {nodo.Numero}{ Arbol(nodo.Hijos[1])})";
 
         }
 
+
         internal int NumeroHojas(Nodo nodo)
         {
-            //Analizo cuando no tengo hojas
+            
             if (SoyUnaHoja(nodo))
                 return 1;
             int totalHojas = 0;
-            foreach (var hijoActual in nodo.Hijos)
+            foreach (var hijo in nodo.Hijos)
             {
-                totalHojas += NumeroHojas(hijoActual);
+                totalHojas += NumeroHojas(hijo);
             }
 
             return totalHojas;
 
-            // var hojasHijo1 = NumeroHojas(nodo.Hijos[0]);
-            //var hojasHijo2 = NumeroHojas(nodo.Hijos[1]);
-            // var hojasHijo3 = NumeroHojas(nodo.Hijos[2]);
-
-
-            // var hojasHijoUltimo = NumeroHojas(nodo.Hijos[nodo.Hijos.Count - 1]);
-
-            //return hojasHijo1 + hojasHijo2 + hojasHijo3 + hojasHijoUltimo;
-        }
+            }
 
         private static bool SoyUnaHoja(Nodo nodo)
         {
@@ -51,9 +44,9 @@ namespace Tarea2_Arbol_Binario
                 return 1;
 
             int totalNodos = 0;
-            foreach (var nodoActual in nodo.Hijos)
+            foreach (var nodod in nodo.Hijos)
             {
-                totalNodos += NumeroNodos(nodoActual);
+                totalNodos += NumeroNodos(nodod);
             }
 
             return totalNodos + 1;

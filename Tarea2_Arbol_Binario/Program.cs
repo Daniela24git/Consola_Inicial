@@ -48,7 +48,7 @@ namespace Tarea2_Arbol_Binario
                                }
                            },
 
-                            new Nodo
+                           /* new Nodo
                            {
                                Numero = "*",
                                Hijos =
@@ -62,16 +62,16 @@ namespace Tarea2_Arbol_Binario
                                        Numero = "2"
                                    }
                                }
-                           },
+                           },*/
 
                 }
 
             };
 
-            //Resultado equivalente = (4 + 3) * (5 - 8) 
+            //Resultado equivalente = (3 + 4) * (5 - 8) 
 
-            ManejadorArbol manejadorArbol = new ManejadorArbol();
-            Console.WriteLine(manejadorArbol.ImprimirArbol(raiz));
+            ControladorArbol manejadorArbol = new ControladorArbol();
+            Console.WriteLine(manejadorArbol.Arbol(raiz));
 
             Console.WriteLine($"El valor total de numero de hojas es: {manejadorArbol.NumeroHojas(raiz)}");
 
@@ -79,12 +79,7 @@ namespace Tarea2_Arbol_Binario
 
             Console.WriteLine($"El valor total de numero de niveles es {manejadorArbol.Niveles(raiz)}");
 
-        /*Queue queue = new Queue();
-        queue.Enqueue(new Nodo(});
-        Nodo nodo = (Nodo)queue.Dequeue();
-        Nodo nodo1 = (Nodo)queue.Peek();
-        private static object queue;*/
-    }
+         }
 
     }
 }
