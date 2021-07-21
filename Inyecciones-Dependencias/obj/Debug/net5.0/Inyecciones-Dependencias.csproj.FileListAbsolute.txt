@@ -1,0 +1,16 @@
+C:\Users\danie\source\repos\Inyecciones-Dependencias\bin\Debug\net5.0\Inyecciones-Dependencias.exe
+C:\Users\danie\source\repos\Inyecciones-Dependencias\bin\Debug\net5.0\Inyecciones-Dependencias.deps.json
+C:\Users\danie\source\repos\Inyecciones-Dependencias\bin\Debug\net5.0\Inyecciones-Dependencias.runtimeconfig.json
+C:\Users\danie\source\repos\Inyecciones-Dependencias\bin\Debug\net5.0\Inyecciones-Dependencias.runtimeconfig.dev.json
+C:\Users\danie\source\repos\Inyecciones-Dependencias\bin\Debug\net5.0\Inyecciones-Dependencias.dll
+C:\Users\danie\source\repos\Inyecciones-Dependencias\bin\Debug\net5.0\ref\Inyecciones-Dependencias.dll
+C:\Users\danie\source\repos\Inyecciones-Dependencias\bin\Debug\net5.0\Inyecciones-Dependencias.pdb
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.AssemblyInfo.cs
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.dll
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\ref\Inyecciones-Dependencias.dll
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.pdb
+C:\Users\danie\source\repos\Inyecciones-Dependencias\obj\Debug\net5.0\Inyecciones-Dependencias.genruntimeconfig.cache
